@@ -1,0 +1,34 @@
+* {
+    justify-content: center;
+}
+body {
+    display: flex;
+}
+.container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.header {
+    background: linear-gradient(45deg, #FD9C00, #AE67FA);
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    margin-top: 30%;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.pricings {
+    justify-content: center;
+    margin-top: 10%;
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+}

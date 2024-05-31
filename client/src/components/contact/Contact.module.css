@@ -1,0 +1,48 @@
+.Contact {
+    margin-top: 1.5%;
+    width: 100vw;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    background-image: url(../../../assets/dream\ city.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    color: #fff;
+    /* border-radius: 15px; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.intro_content {
+    width: 70%;
+    max-width: 1140px;
+    text-align: center;
+}
+
+.intro_content.cc_homepage {
+    margin-bottom: 20px;
+}
+
+.intro_text {
+    width: 80%;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading_jumbo {
+    pointer-events: auto;
+    text-transform: none;
+    cursor: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 64px;
+    font-weight: 550;
+    line-height: 80px;
+    display: block;
+    position: static;
+}

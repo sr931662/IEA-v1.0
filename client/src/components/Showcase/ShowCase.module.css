@@ -1,0 +1,95 @@
+.section {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+.section.cc_cta {
+    background-color: #f4f4f4;
+    background-image: url('../../assets/purple-abstract-cube-3d-background.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    border-radius: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.paragraph_bigger {
+    color: #fff;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta_text {
+    width: 70%;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta_wrap {
+    text-align: center;
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    display: flex;
+}
+
+.heading_jumbo_small {
+    color: #a753ff;
+    text-transform: none;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    padding-bottom: 0;
+    font-family: Droid Sans, sans-serif;
+    font-size: 48px;font-weight: 700;
+    line-height: 50px;
+    display: block;
+    position: static;
+}
+
+.button.cc_jumbo_button {
+    padding: 16px 35px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.button.cc_jumbo_button.w_inline_block {
+    background-color: #fff;
+    padding: 10px 50px;
+    margin: 0 auto;
+    width: fit-content;
+    transition: background-color .4s, color .4s;
+}
+
+.button.cc_jumbo_button.w_inline_block:hover {
+    background-color: #a753ff;
+    color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    .section.cc_cta {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .button {
+        justify-content: center;
+    }
+    .cta_text {
+        width: auto;
+    }
+    .cta_wrap {
+        width: auto;
+        padding: 80px 50px 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}

@@ -1,0 +1,217 @@
+.container {
+    width: 85vw;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.cA {
+    width: 60%;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
+    background-color: #dbdcf3;
+    float: left;
+}
+
+.cA_isSun {
+    width: 60%;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
+    background-color: #1c1e40;
+    float: left;
+}
+
+.cB {
+    width: 40%;
+    height: 100%;
+    border-radius: 0 25px 25px 0;
+    background-image: url(../../assets/bluerocket.jpg);
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+
+
+.login_main {
+    width: 30vw;
+    height: 60vh;
+    background: #fff;
+    position: absolute;
+    right: 300px;
+    color: #7d838b;
+    border-radius: 30px;
+    margin-top: 10vh;
+    left: 60%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.login_main_isSun {
+    width: 30vw;
+    height: 60vh;
+    background: #1c1e40;
+    position: absolute;
+    right: 300px;
+    color: #1e1a2f;
+    border-radius: 30px;
+    margin-top: 10vh;
+    left: 60%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.logo_icon {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.email {
+    left: 10px;
+}
+
+.login_header {
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.login_header_isSun {
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #9883e5;
+    text-align: center;
+}
+
+.login_motive {
+    font-size: 16px;
+    color: #1c1e40;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+.login_motive_isSun {
+    font-size: 16px;
+    color: #7d838b;
+    margin-bottom: 50px;
+    line-height: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* input {
+    color: white;
+} */
+.input {
+    width: 80%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    color: #1e1a2f;
+    padding: 20px;
+    background-color: transparent;
+    border-width: 1px;  
+    margin-top: 5%; 
+}
+
+.input_isSun {
+    width: 80%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    color: #a799cd;
+    padding: 20px;
+    background-color: transparent;
+    border-width: 1px;   
+    margin-top: 5%;
+}
+
+.name_section {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 10%;
+    justify-content: center;
+}
+
+.ninput {
+    width: 45%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    color: #1e1a2f;
+    padding: 20px;
+    background-color: transparent;
+    border-width: 1px;   
+}
+
+.ninput_isSun {
+    width: 45%;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    color: #a799cd;
+    padding: 20px;
+    background-color: transparent;
+    border-width: 1px;   
+}
+
+.login_btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    bottom: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    background: linear-gradient(90deg, #68cbd7, #a799cd);
+}
+
+.terms {
+    color: #9883e5;
+    margin-left: 10px;
+}
+.terms_isSun {
+    color: #dbdcf3;
+    margin-left: 10px;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    color: #1c1e40;
+}
+
+.p_isSun {
+    display: flex;
+    flex-direction: row;
+    color: #7d838b;
+}
+
+.check {
+    margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+    .cA_isSun {
+        padding: 30px;
+    }
+    .name_section {
+        width: 100%;
+    }
+    .input_isSun {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+    }
+    .p_isSun {
+        margin: 20px 0;
+    }
+    
+}
